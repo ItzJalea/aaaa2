@@ -1,0 +1,6 @@
+sendPacket(2, [[
+        action|dialog_return
+        dialog_name|trash_item
+        itemID|]] .. id .. [[|
+        count|]] .. count.. [[
+        ]])
