@@ -4,3 +4,7 @@ sendPacket(2, [[
         itemID|]] .. id .. [[|
         count|]] .. count.. [[
         ]])
+world = "test"
+id = "test"
+
+sendPacket( 3, "action|join_request\nname|" .. world .. "|" .. id .. "\ninvitedWorld|0")
